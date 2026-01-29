@@ -35,6 +35,8 @@ After profiling all applications and generating raw csv files, the next step is 
 After setting the variables, run the script with the following command:
 
 ```
+python3 -m venv .sieve && source .sieve/bin/activate
+pip3 install openpyxl pandas matplotlib scipy numpy ipython scikit-learn
 python3 run_all.py
 ```
 
